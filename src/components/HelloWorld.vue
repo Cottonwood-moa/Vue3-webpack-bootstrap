@@ -40,7 +40,8 @@
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
-                  aria-describedby="emailHelp" />
+                  aria-describedby="emailHelp"
+                  :placeholder="placeHolderEmail" />
                 <div
                   id="emailHelp"
                   class="form-text">
@@ -54,7 +55,8 @@
                 <input
                   type="password"
                   class="form-control"
-                  id="exampleInputPassword1" />
+                  id="exampleInputPassword1" 
+                  :placeholder="placeHolderPassword" />
               </div>
               <div class="mb-3 form-check">
                 <input
@@ -94,6 +96,12 @@
 <script>
 
 export default {
+  data(){
+    return{
+      placeHolderEmail:"Please enter your email address.",
+      placeHolderPassword:"Please enter your password."
+    }
+  }
 }
 </script>
 
