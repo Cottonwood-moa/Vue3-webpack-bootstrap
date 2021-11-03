@@ -1,11 +1,11 @@
 # Vue3 템플릿 with Webpack + bootstrap
 
 # Start!
+```
 $ cd DIRECTORY_NAME
 $ npm i
 $ npm run dev
 ```
-
 ## Specs
 
 - Vue3
