@@ -1,4 +1,4 @@
-# Vue3 템플릿 with Webpack + bootstrap
+# Vue3 with Webpack + bootstrap
 
 # Start!
 ```
